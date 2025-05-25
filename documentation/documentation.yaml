@@ -1,0 +1,52 @@
+project:
+  name: IT for Hire
+  author: Ethan Horne
+  description: |
+    A personal website for Ethan Horne, a high school student at Kirkland Ranch Academy of Innovation.
+    The website showcases cybersecurity projects, certifications, digital media skills, and a contact form for potential collaboration opportunities.
+  website_url: https://roanelmos.github.io/it-for-hire/
+
+structure:
+  sections:
+    - Hero
+    - Introduction
+    - Certifications
+    - Cybersecurity Glideshow
+    - Digital Media Skills
+    - Hire Me
+    - Footer
+
+technologies:
+  - HTML
+  - CSS (modular: main.css, hero.css, intro.css, glide.css, footer.css, hire.css)
+  - JavaScript (main.js)
+
+files:
+  index.html: |
+    The main HTML file containing the website's structure and content.
+  assets/css/main.css: |
+    The master CSS file that imports individual section CSS files.
+  assets/css/hero.css: |
+    Styles for the hero section, including text and scroll indicators.
+  assets/css/intro.css: |
+    Styles for the introduction section.
+  assets/css/glide.css: |
+    Styles for the cybersecurity glideshow section.
+  assets/css/footer.css: |
+    Styles for the footer section.
+  assets/css/hire.css: |
+    Styles for the hire section.
+  assets/js/main.js: |
+    JavaScript file for smooth scrolling and content fade-in effects.
+  assets/images/: |
+    Folder containing all image assets used for backgrounds and icons.
+  assets/documents/: |
+    Folder containing PDF certifications displayed on the website.
+
+notes:
+  hosting: |
+    This website is hosted on GitHub Pages at the provided URL.
+  license: |
+    This project is for educational purposes only and is not a professional portfolio or commercial service.
+  contact: |
+    For inquiries or collaboration opportunities, use the "Hire Me" form on the website.

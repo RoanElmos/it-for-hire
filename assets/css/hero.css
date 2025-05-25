@@ -1,0 +1,48 @@
+/* ./assets/css/hero.css */
+
+/* Hero section */
+#hero {
+    height: 100vh;
+    background-image: url('../images/image001.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.hero-content h1 {
+    text-shadow: 0px 0px 5px #00f, 0px 0px 15px #00f;
+    color: #0ff;
+}
+
+.hero-content p {
+    text-shadow: 0px 0px 2.5px #00f, 0px 0px 7.5px #00f;
+    color: #0ff;
+}
+
+.hero-scroll-indicator {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+
+.hero-scroll-indicator a {
+    animation: bounce 2s infinite;
+    font-size: 75px;
+    color: #fff;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translate(-50%, 0);
+    }
+    50% {
+        transform: translate(-50%, 8px);
+    }
+}

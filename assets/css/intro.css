@@ -1,0 +1,54 @@
+/* ./assets/css/intro.css */
+
+/* Intro */
+#intro {
+    padding: 4rem 2rem;
+    background-color: #111;
+    color: white;
+}
+
+.introduction p {
+    max-width: 800px;
+    margin: 0 auto 1rem;
+    font-size: 1.1rem;
+}
+
+/* Certifications Section */
+.certifications h1, .introduction h1 {
+    padding: 5px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.certifications p, .introduction p {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.certpdf {
+    width: 35%;
+    height: 575px;
+    display: block;
+    margin: 0;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.cert-row-1, .cert-row-2 {
+    display: flex;
+    justify-content: center;
+    gap: 0;
+    flex-wrap: wrap;
+}
+
+.cert-row-2 {
+    margin-bottom: 3rem;
+}
+
+@media (max-width: 768px) {
+    .certpdf {
+        width: 90%;
+        height: 400px;
+    }
+}

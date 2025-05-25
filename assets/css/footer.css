@@ -1,0 +1,25 @@
+/* ./assets/css/footer.css */
+
+/* Digital Media Section */
+#digital-media > div {
+    padding: 3rem 2rem;
+    background-color: #121212;
+    color: white;
+    text-align: center;
+    border-bottom: 1px solid #333;
+}
+
+.footer-links a {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#footer {
+    margin: 0 auto;
+    padding-top: 25px;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    background-color: #121212;
+}
